@@ -1,5 +1,9 @@
 package com.sezer.maps
 
+import android.content.Context
+import android.location.Location
+import android.location.LocationListener
+import android.location.LocationManager
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -10,6 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.content.ContextCompat.getSystemService
 import com.google.android.gms.maps.MapView
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.CameraPosition
@@ -38,18 +43,39 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ComposeDemoApp() {
-    val singapore = LatLng(39.90902 , 32.9025 )
-    val cameraPositionState = rememberCameraPositionState {
-        position = CameraPosition.fromLatLngZoom(singapore, 15f)
+    val ankara = LatLng(39.90902 , 32.9025 )
+    val place2 = LatLng(65.90902 , 13.9025 )
+    val place3 = LatLng(67.90902 , 65.9025 )
+
+
+     val cameraPositionState = rememberCameraPositionState {
+        position = CameraPosition.fromLatLngZoom(ankara, 15f)
     }
+
+
     GoogleMap(
         modifier = Modifier.fillMaxSize(),
         cameraPositionState = cameraPositionState
     ) {
         Marker(
-            state = MarkerState(position = singapore),
+            state = MarkerState(position = ankara),
+            title = "London",
+            snippet = "Marker in Big Ben"
+        )
+        Marker(
+            state = MarkerState(position = place2),
+            title = "London",
+            snippet = "Marker in Big Ben"
+        )
+        Marker(
+            state = MarkerState(position = place3),
             title = "London",
             snippet = "Marker in Big Ben"
         )
     }
+
+
+
 }
+
+
