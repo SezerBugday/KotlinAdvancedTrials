@@ -1,0 +1,86 @@
+[
+  {
+    "Adı": "BYDNR",
+    "Adet": 15,
+    "Alış Fiyatı": 21,
+    "Maliyet (TL)": 315,
+    "Güncel Fiyat": 59.7,
+    "Güncel Getiri": 895.5,
+    "Net Kar-Zarar (tl)": 580.5,
+    "% Kar- Zarar": 1.8428571428571427,
+    "": "BYDNR",
+    "Satıldı mı ?": false
+  },
+  {
+    "Adı": "ENERY",
+    "Adet": 11,
+    "Alış Fiyatı": 88.76,
+    "Maliyet (TL)": 976.36,
+    "Güncel Fiyat": 208.6,
+    "Güncel Getiri": 2294.6,
+    "Net Kar-Zarar (tl)": 1318.2399999999998,
+    "% Kar- Zarar": 1.3501577287066246,
+    "": "ENERY",
+    "Satıldı mı ?": false
+  },
+  {
+    "Adı": "IZENR",
+    "Adet": 36,
+    "Alış Fiyatı": 19,
+    "Maliyet (TL)": 684,
+    "Güncel Fiyat": 71.8,
+    "Güncel Getiri": 2584.7999999999997,
+    "Net Kar-Zarar (tl)": 1900.7999999999997,
+    "% Kar- Zarar": 2.7789473684210524,
+    "": "IZENR",
+    "Satıldı mı ?": false
+  },
+  {
+    "Adı": "KZGYO",
+    "Adet": 14,
+    "Alış Fiyatı": 20.76,
+    "Maliyet (TL)": 290.64000000000004,
+    "Güncel Fiyat": 33.38,
+    "Güncel Getiri": 467.32000000000005,
+    "Net Kar-Zarar (tl)": 176.68,
+    "% Kar- Zarar": 0.6078998073217724,
+    "": "KZGYO",
+    "Satıldı mı ?": false
+  },
+  {
+    "Adı": "TATEN",
+    "Adet": 22,
+    "Alış Fiyatı": 22.5,
+    "Maliyet (TL)": 495,
+    "Güncel Fiyat": 77.3,
+    "Güncel Getiri": 1700.6,
+    "Net Kar-Zarar (tl)": 1205.6,
+    "% Kar- Zarar": 2.4355555555555553,
+    "": "TATEN",
+    "Satıldı mı ?": false
+  },
+  {
+    "Adı": "EBEBK",
+    "Adet": 0,
+    "Alış Fiyatı": 46.5,
+    "Maliyet (TL)": 0,
+    "Güncel Fiyat": "#N/A",
+    "Güncel Getiri": "#N/A",
+    "Net Kar-Zarar (tl)": "#N/A",
+    "% Kar- Zarar": "#N/A",
+    "": "",
+    "Satıldı mı ?": false
+  },
+  {
+    "Adı": "Toplam",
+    "Adet": "",
+    "Alış Fiyatı": "",
+    "Maliyet (TL)": 2761,
+    "Güncel Fiyat": "",
+    "Güncel Getiri": 7942.82,
+    "Net Kar-Zarar (tl)": 5181.82,
+    "% Kar- Zarar": "",
+    "": "",
+    "Satıldı mı ?": false
+  }
+]
