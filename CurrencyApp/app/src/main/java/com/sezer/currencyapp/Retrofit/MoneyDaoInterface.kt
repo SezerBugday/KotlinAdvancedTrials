@@ -4,7 +4,7 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface MoneyDaoInterface {
-    @GET("latest?access_key=91a9127dddc59928e233f3e3863a1c5f&format=1")
+    @GET("latest?access_key=91a9127dddc59928e233f3e3863a1c5f&")
     fun VeriGetir():Call<MoneyCevap>
 
 }

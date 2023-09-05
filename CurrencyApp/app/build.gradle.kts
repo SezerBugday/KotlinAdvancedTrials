@@ -1,11 +1,12 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+
 }
 
 android {
     namespace = "com.sezer.currencyapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.sezer.currencyapp"
@@ -77,5 +78,7 @@ dependencies {
     implementation ("androidx.navigation:navigation-compose:2.7.1")
 
     implementation ("androidx.compose.runtime:runtime-livedata:1.0.0-beta08")
+
+
 
 }
