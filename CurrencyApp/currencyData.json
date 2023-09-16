@@ -38,5 +38,10 @@
     "Name": "CAD",
     "Base": "USD",
     "Value": 1.35365
+  },
+  {
+    "Name": "PLN",
+    "Base": "USD",
+    "Value": 4.357349999999999
   }
 ]
