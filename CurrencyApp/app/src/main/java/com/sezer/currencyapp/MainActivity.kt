@@ -9,6 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import com.sezer.currencyapp.ui.theme.CurrencyAppTheme
 import com.sezer.currencyapp.View.MainScreen
 import com.sezer.currencyapp.ViewModel.GetCurrencyViewModel
@@ -20,17 +21,21 @@ class MainActivity : ComponentActivity() {
         setContent {
 
             CurrencyAppTheme {
+
+
+
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+
                 ) {
                     LaunchedEffect(key1 = true )
                     {
                        GetCurrencyViewModel.GetCurency()
                     }
 
-                    //GetCurrencyViewModel().GetCurency()
+
+
                     MainScreen().ShowCurrency()
 
                 }

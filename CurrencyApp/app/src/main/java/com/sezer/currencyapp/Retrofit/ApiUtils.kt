@@ -5,7 +5,7 @@ class ApiUtils {
     {
 
 
-        val base_url ="http://data.fixer.io/api/"
+        val base_url ="https://raw.githubusercontent.com/"
 
         fun GetMoneyDaoInterface(): MoneyDaoInterface
         {

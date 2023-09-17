@@ -1,23 +1,21 @@
 package com.sezer.currencyapp.Retrofit
 import com.google.gson.annotations.SerializedName
 import com.google.gson.annotations.Expose
-data class MoneyData (
+data class MoneyData(
 
 
-    @SerializedName("EUR")
+    @SerializedName("Name")
                           @Expose
-                          var euro:String,
+                          var Name:String,
 
-                          @SerializedName("TRY")
+                          @SerializedName("Base")
                           @Expose
-                          var turkishLira :String,
+                          var Base :String,
 
-                          @SerializedName("PLN")
+                          @SerializedName("Value")
                           @Expose
-                          var zloty:String,
+                          var Value:Double
 
-                          @SerializedName("USD")
-                          @Expose
-                          var dolar:String
+
 
 )
