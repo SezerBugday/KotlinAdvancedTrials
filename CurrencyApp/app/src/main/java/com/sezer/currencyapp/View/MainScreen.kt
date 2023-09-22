@@ -2,6 +2,7 @@ package com.sezer.currencyapp.View
 
 import android.annotation.SuppressLint
 import android.widget.Toast
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -28,8 +29,10 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.material3.contentColorFor
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
@@ -67,10 +70,12 @@ class MainScreen {
         var mDisplayMenu2 by remember { mutableStateOf(false) }
         var image_selected1 by remember { mutableStateOf(R.drawable.tr_flag) }
         var image_selected2 by remember { mutableStateOf(R.drawable.gb_flag) }
+
+
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(color = Color(0xFFCACF91))
+                .background(color = Color(0x9FFFF496))
                 .padding(16.dp),
 
 
@@ -94,10 +99,13 @@ class MainScreen {
                 ),
             )
 
-            Row {
+            Row(  ) {
+
                 TextField(
+                    modifier = Modifier.background(Color(0xFF000000)) ,//
                     value = input_one,
                     onValueChange = {
+
                         input_one = it
                         val deger = it.toIntOrNull()
 
@@ -111,6 +119,7 @@ class MainScreen {
                             println("int değilll")
                         }
                     },
+
                     label = { Text(text = "Enter first number") })
 
                 IconButton(onClick = { mDisplayMenu1 = !mDisplayMenu1 }) {
@@ -198,6 +207,7 @@ class MainScreen {
 
 
                 TextField(
+
                     readOnly = true,
                     value = sonuc.value.toString(),
                     onValueChange = { },

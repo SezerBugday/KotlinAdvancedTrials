@@ -8,6 +8,8 @@ android {
     namespace = "com.sezer.currencyapp"
     compileSdk = 34
 
+
+
     defaultConfig {
         applicationId = "com.sezer.currencyapp"
         minSdk = 26
@@ -75,7 +77,7 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
 
-    implementation ("androidx.navigation:navigation-compose:2.7.1")
+    implementation ("androidx.navigation:navigation-compose:2.7.2")
 
     implementation ("androidx.compose.runtime:runtime-livedata:1.0.0-beta08")
 

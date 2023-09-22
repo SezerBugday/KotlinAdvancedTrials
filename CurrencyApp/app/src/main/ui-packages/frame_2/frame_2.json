@@ -1,0 +1,145 @@
+{
+  "name": "frame_2",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "0nR2Q8IOUEOJiFoxDNtqoZ",
+    "node": "1:11",
+    "version": "4175300138",
+    "component-id": "a772d8a65b485cf1740a8e62e4433c418ba4cbc6"
+  },
+  "default": "Frame 2",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 1"
+      },
+      {
+        "type": "text",
+        "id": "Sezer"
+      }
+    ],
+    "modes": {
+      "Frame 2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Frame 1"
+            ],
+            "background-color": "$arkaplan"
+          },
+          {
+            "id": "Frame 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "103.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "42.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "213.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Sezer"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Sezer",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "28.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "173.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$yazi",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "50.0",
+            "line-height": "1.210227279663086",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "arkaplan": {
+      "data-type": "color",
+      "required": false,
+      "description": ""
+    },
+    "yazi": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Frame 2",
+      "size": {
+        "width": 452.0,
+        "height": 135.0
+      },
+      "parameters": {
+        "arkaplan": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.34901960784313724",
+          "value": "1.0"
+        },
+        "yazi": "Sezer"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
