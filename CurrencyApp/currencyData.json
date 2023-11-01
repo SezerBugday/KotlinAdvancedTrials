@@ -2,46 +2,46 @@
   {
     "Name": "EUR",
     "Base": "USD",
-    "Value": 0.9488949999999999
+    "Value": 0.9487549999999999
   },
   {
     "Name": "TRY",
     "Base": "USD",
-    "Value": 28.33012
+    "Value": 28.332300000000004
   },
   {
     "Name": "SAR",
     "Base": "USD",
-    "Value": 3.751346
+    "Value": 3.751496
   },
   {
     "Name": "NOK",
     "Base": "USD",
-    "Value": 11.22348
+    "Value": 11.22624
   },
   {
     "Name": "JPY",
     "Base": "USD",
-    "Value": 151.008
+    "Value": 151.056
   },
   {
     "Name": "HUF",
     "Base": "USD",
-    "Value": 364.504
+    "Value": 363.77000000000004
   },
   {
     "Name": "CZK",
     "Base": "USD",
-    "Value": 23.411
+    "Value": 23.379
   },
   {
     "Name": "CAD",
     "Base": "USD",
-    "Value": 1.38812
+    "Value": 1.38817
   },
   {
     "Name": "PLN",
     "Base": "USD",
-    "Value": 4.2362839999999995
+    "Value": 4.23445
   }
 ]
