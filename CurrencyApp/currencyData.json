@@ -12,7 +12,7 @@
   {
     "Name": "SAR",
     "Base": "USD",
-    "Value": 3.751047
+    "Value": 3.751
   },
   {
     "Name": "NOK",
@@ -42,6 +42,6 @@
   {
     "Name": "PLN",
     "Base": "USD",
-    "Value": 4.144089999999999
+    "Value": 4.131398
   }
 ]
