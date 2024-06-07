@@ -2,7 +2,7 @@
   {
     "Name": "EUR",
     "Base": "USD",
-    "Value": 0.92485
+    "Value": 0.9247
   },
   {
     "Name": "TRY",
@@ -37,11 +37,11 @@
   {
     "Name": "CAD",
     "Base": "USD",
-    "Value": 1.3775499999999998
+    "Value": 1.37765
   },
   {
     "Name": "PLN",
     "Base": "USD",
-    "Value": 4.003515
+    "Value": 4.0037899999999995
   }
 ]
