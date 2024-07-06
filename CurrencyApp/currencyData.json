@@ -43,10 +43,5 @@
     "Name": "PLN",
     "Base": "USD",
     "Value": 3.952
-  },
-  {
-    "Name": "Tarih",
-    "Base": "date",
-    "Value": "2024-07-05T21:00:00.000Z"
   }
 ]
