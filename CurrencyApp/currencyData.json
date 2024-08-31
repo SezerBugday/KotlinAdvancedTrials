@@ -2,7 +2,7 @@
   {
     "Name": "EUR",
     "Base": "USD",
-    "Value": 0.904036523
+    "Value": 0.9041
   },
   {
     "Name": "TRY",
@@ -27,7 +27,7 @@
   {
     "Name": "JPY",
     "Base": "USD",
-    "Value": 146.205008
+    "Value": 146.165
   },
   {
     "Name": "HUF",
